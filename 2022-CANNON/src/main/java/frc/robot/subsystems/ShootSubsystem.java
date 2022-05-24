@@ -29,4 +29,8 @@ public class ShootSubsystem extends CommandBase {
   public boolean isFinished() {
     return false;
   }
+
+  public void shoot(){
+    
+  }
 }
