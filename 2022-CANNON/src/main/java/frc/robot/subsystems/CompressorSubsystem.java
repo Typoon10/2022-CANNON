@@ -6,9 +6,9 @@ package frc.robot.subsystems;
 
 import edu.wpi.first.wpilibj2.command.CommandBase;
 
-public class Compressor extends CommandBase {
+public class CompressorSubsystem extends CommandBase {
   /** Creates a new Compressor. */
-  public Compressor() {
+  public CompressorSubsystem() {
     // Use addRequirements() here to declare subsystem dependencies.
   }
 

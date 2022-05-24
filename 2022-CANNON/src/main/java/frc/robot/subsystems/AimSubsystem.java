@@ -6,9 +6,9 @@ package frc.robot.subsystems;
 
 import edu.wpi.first.wpilibj2.command.CommandBase;
 
-public class Aim extends CommandBase {
+public class AimSubsystem extends CommandBase {
   /** Creates a new Aim. */
-  public Aim() {
+  public AimSubsystem() {
     // Use addRequirements() here to declare subsystem dependencies.
   }
 

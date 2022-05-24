@@ -6,9 +6,9 @@ package frc.robot.subsystems;
 
 import edu.wpi.first.wpilibj2.command.CommandBase;
 
-public class LED extends CommandBase {
+public class LEDSubsystem extends CommandBase {
   /** Creates a new LED. */
-  public LED() {
+  public LEDSubsystem() {
     // Use addRequirements() here to declare subsystem dependencies.
   }
 

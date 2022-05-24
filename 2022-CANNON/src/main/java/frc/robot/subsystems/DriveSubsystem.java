@@ -6,9 +6,13 @@ package frc.robot.subsystems;
 
 import edu.wpi.first.wpilibj2.command.CommandBase;
 
-public class Drive extends CommandBase {
+public class DriveSubsystem extends CommandBase {
+
+WPI_VictorSPX leftDrive = new WPI_VictorSPX(2);
+WPI_VictorSPX rightDrive = new WPI_VictorSPX(1);
+
   /** Creates a new Drive. */
-  public Drive() {
+  public DriveSubsystem() {
     // Use addRequirements() here to declare subsystem dependencies.
   }
 
