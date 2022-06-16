@@ -6,6 +6,8 @@ package frc.robot.subsystems;
 
 import edu.wpi.first.wpilibj2.command.CommandBase;
 
+import com.ctre.phoenix.motorcontrol.can.WPI_VictorSPX;
+
 public class DriveSubsystem extends CommandBase {
 
 WPI_VictorSPX leftDrive = new WPI_VictorSPX(2);
